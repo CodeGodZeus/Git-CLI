@@ -1,0 +1,39 @@
+~ $ mkdir website
+~ $ ls
+about.txt  languages  website
+~ $ cd website
+website $ mkdir top
+website $ ls
+top
+website $ cd toptop $ touch top.html
+top $ ls
+top.html
+top $ touch stylesheet.css
+top $ cd ..
+website $ mv -r top about
+mv: unrecognized option: r
+BusyBox v1.26.2 (2018-05-30 13:51:20 GMT) multi-call binary.
+
+Usage: mv [-fin] SOURCE DEST
+or: mv [-fin] SOURCE... DIRECTORY
+
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY
+
+        -f      Don't prompt before overwriting
+        -i      Interactive, prompt before overwrite
+        -n      Don't overwrite an existing file
+website $ cp -r top about
+website $ ls
+about  top
+website $ cd abour
+bash: cd: abour: No such file or directory
+website $ cd obout
+bash: cd: obout: No such file or directory
+website $ cd about
+about $ mv top.html about.html
+about $ ls
+about.html      stylesheet.css
+about $ rm -r about.html
+about $ ls
+stylesheet.css
+about $
