@@ -1,0 +1,101 @@
+INTRODUCTION----               The command line is an essential tool for software development.
+                                   By using commands, you can execute a wide variety of programs on your computer.
+                                   Let's learn the fundamental UNIX commands necessary for development in this course!
+                                   
+                                   
+                                   
+Command Line
+The command line is a tool for interacting with a computer using only text (also known as a text interface) rather than other methods like clicking and scrolling. Let's learn these skills thoroughly because they are essential for developing websites and applications!
+UNIX command is a type of command that is used in Linux and macOS.
+
+
+
+
+
+
+
+
+
+
+
+basic cli commands---
+1)  cd //move to directory
+
+2) mkdir //make directory
+
+3) touch //show the contents of the directory
+
+4)  pwd //print working directory
+
+5) ls-  to see the list of files and directories in the current directory.
+***~ $ ls language
+ls: language: No such file or directory
+~ $ cd languages
+languages $ ls
+index.txt
+languages $ ^C***
+6)cd.. //move to the home directory
+7)mv //move a file from a directory
+EXAMPLE----
+
+1 Display files in the home directory
+~ $ ls
+
+2 Move beginner.txt to the html directory
+~ $ mv beginner.txt html
+
+3 Move to the html directory
+~ $ cd html
+
+4 Display files in the html directory
+html $ ls
+
+5 Move to the home directory
+html $ cd ..
+
+6 Move the html directory to the languages directory
+~ $ mv html languages
+
+7 Move to the languages directory
+~ $ cd languages
+
+8 Display files in the languages directory
+languages $ ls
+
+
+
+
+
+
+1 Move to the languages directory in the home directory
+~ $ cd languages
+
+2 Move to the html directory
+languages $ cd html
+
+3 Rename beginner.txt to dojo.txt
+html $ mv beginner.txt dojo.txt
+
+rename a file we use mv
+like $mv kush.txt power.txt
+
+copy directories        cp
+
+1 Move to the languages directory in the home directory
+~ $ cd languages
+
+2 Move to the html directory
+languages $ cd html
+
+3 Rename beginner.txt to dojo.txt
+html $ mv beginner.txt dojo.txt
+
+
+1 Move to the languages directory in the home directory
+~ $ cd languages
+
+2 Move to the html directory
+languages $ cd html
+
+3 Rename beginner.txt to dojo.txt
+html $ mv beginner.txt dojo.txt
